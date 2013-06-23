@@ -19,7 +19,7 @@
 }
 .header__keys {
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 39px;
 }
 .header__keys__key {
   @include transition(all .2s ease-in-out);
@@ -33,7 +33,7 @@
 .header__nav__item {
   float: left;
   font-size: 26px;
-  margin-left: 44px;
+  margin-left: 31px;
 
   &:hover {
     .header__keys__key {
@@ -57,7 +57,7 @@
   top: 30px;
   left: 35px;
   color: #FFF;
-  font-size: 44px;
+  font-size: 40px;
 }
 
 .centered__image {
@@ -70,7 +70,7 @@
   margin-right: 10px;
   padding-bottom: 35px;
   background: #F9F9F9;
-  height: 383px;
+  height: 406px;
 }
 
 .centered__right {
