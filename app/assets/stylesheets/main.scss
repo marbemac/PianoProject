@@ -1,0 +1,150 @@
+@import 'bourbon';
+@import 'element_defaults';
+
+.header {
+  width: 960px;
+  margin: auto;
+  position: relative;
+  padding-left: 190px;
+  margin-bottom: 75px;
+}
+.header__logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 150px;
+}
+.header__nav {
+  @include clearfix();
+}
+.header__keys {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.header__keys__key {
+  @include transition(all .2s ease-in-out);
+  width: 8px;
+  background: #222;
+  height: 50px;
+  display: inline-block;
+  margin: -14px 4px 0 4px;
+  border-radius: 1px;
+}
+.header__nav__item {
+  float: left;
+  font-size: 26px;
+  margin-left: 44px;
+
+  &:hover {
+    .header__keys__key {
+      margin-top: -20px;
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.centered {
+  @include clearfix();
+
+  width: 960px;
+  position: relative;
+  margin: 0 auto 10px auto;
+}
+
+.centered__tagline {
+  text-shadow: 1px 1px 0 #333;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  color: #FFF;
+  font-size: 44px;
+}
+
+.centered__image {
+  width: 100%;
+}
+
+.centered__left {
+  width: 550px;
+  float: left;
+  margin-right: 10px;
+  padding-bottom: 35px;
+  background: #F9F9F9;
+  height: 383px;
+}
+
+.centered__right {
+  width: 400px;
+  float: left;
+}
+
+.centered__title {
+  font-size: 32px;
+  margin: 30px 0 25px 35px;
+}
+
+.centered__button {
+  @include transition(all, 0.2s, ease-in-out);
+  font-size: 32px;
+  display: block;
+  padding: 30px 35px;
+  margin-bottom: 5px;
+}
+
+.centered__button--donate {
+  background: #DEF5FF;
+  color: #68787B;
+
+  &:hover {
+    background: darken(#DEF5FF, 5%);
+  }
+}
+
+.centered__button--request {
+  background: #CBE1E9;
+  color: #68787B;
+
+  &:hover {
+    background: darken(#CBE1E9, 10%);
+  }
+}
+
+.centered__activity {
+  background: #B9D0D8;
+  color: #FFF;
+  overflow: hidden;
+  padding-bottom: 35px;
+}
+
+.centered__activity__item {
+  margin: 10px 35px 0 35px;
+  font-weight: normal;
+
+  .date {
+    font-weight: bold;
+    width: 70px;
+    display: inline-block;
+  }
+}
+
+.footer {
+  background: #222;
+  margin-top: 75px;
+}
+
+.footer__nav {
+  @include clearfix();
+  width: 960px;
+  margin: auto;
+}
+
+.footer__nav__item {
+  float: left;
+  color: #FFF;
+  padding: 15px 25px;
+  font-size: 20px;
+}
+
+.footer__nav__item--first {
+  margin-right: 40px;
+}
