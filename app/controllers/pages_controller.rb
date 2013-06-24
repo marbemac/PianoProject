@@ -4,6 +4,26 @@ class PagesController < ApplicationController
   protect_from_forgery with: :exception
 
   def home
+  end
+
+  def mission
 
   end
+
+  def get_involved
+
+  end
+
+  def photos
+
+  end
+
+  def who_we_are
+
+  end
+
+  def get_in_touch
+
+  end
+
 end

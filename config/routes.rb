@@ -1,5 +1,10 @@
 PianoProject::Application.routes.draw do
 
+  get 'mission' => 'pages#mission', :as => :mission
+  get 'get-involved' => 'pages#get_involved', :as => :get_involved
+  get 'photos' => 'pages#photos', :as => :photos
+  get 'who-we-are' => 'pages#who_we_are', :as => :who_we_are
+  get 'get-in-touch' => 'pages#get_in_touch', :as => :get_in_touch
   root :to => 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
