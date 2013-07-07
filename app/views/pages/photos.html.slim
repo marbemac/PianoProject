@@ -1,8 +1,27 @@
 .centered
-  img.centered__image src=image_path('home_banner.jpg')
+  img.centered__image src=image_path('photos_banner.jpg')
   .centered__tagline Photos
 
 .centered
-  .centered__left
+  .centered__left.centered__left--photos
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/1.jpg') title='On site at the Repertory School'
+      img src=image_path('gallery/1.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/2.jpg') title='Rolling down the street'
+      img src=image_path('gallery/2.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/5.jpg') title='Will and Adam with the class'
+      img src=image_path('gallery/5.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/6.jpg') title='Adam and Will with Paul (HS Music Teacher)'
+      img src=image_path('gallery/6.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/4.jpg') title='Will gives the piano a test run'
+      img src=image_path('gallery/4.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/7.jpg') title='Unpacking the Piano at the School'
+      img src=image_path('gallery/7.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/8.jpg') title='Paul (music teacher) enjoying the new piano'
+      img src=image_path('gallery/8.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/9.jpg') title='Leaving the piano in its new home'
+      img src=image_path('gallery/9.jpg') alt='' width=265
+    a.fancybox.fancybox__left rel='gallery1' href=image_path('gallery/3.jpg') title='Will and Don (piano donor) pre-move'
+      img src=image_path('gallery/3.jpg') alt='' width=265
+
   .centered__right
     = render 'shared/actions'

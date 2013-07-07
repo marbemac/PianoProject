@@ -33,7 +33,7 @@
 .header__nav__item {
   float: left;
   font-size: 26px;
-  margin-left: 31px;
+  margin-left: 65px;
 
   &:hover {
     .header__keys__key {
@@ -77,6 +77,14 @@
   margin: 0 35px;
   font-size: 18px;
   line-height: 28px;
+}
+
+.centered__left--photos {
+  background: transparent;
+
+  .fancybox {
+    margin: 0 15px 0 0;
+  }
 }
 
 .centered__right {
@@ -146,10 +154,41 @@
 .footer__nav__item {
   float: left;
   color: #FFF;
-  padding: 15px 25px;
+  padding: 15px 19px;
   font-size: 20px;
 }
 
 .footer__nav__item--first {
-  margin-right: 40px;
+  margin-right: 35px;
+}
+
+.who {
+  position: relative;
+  padding: 0 0 0 100px;
+  margin: 30px 0 25px 35px;
+  min-height: 75px;
+}
+
+.who__image {
+  width: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.who__name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.who__title {
+
+}
+
+.board-members {
+  margin: 30px 0 25px 35px;
+}
+
+.board-member {
+  font-size: 20px;
 }
