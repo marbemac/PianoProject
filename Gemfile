@@ -26,6 +26,7 @@ gem 'fancybox2-rails'
 gem 'bourbon'
 gem 'zurb-foundation'
 gem "slim-rails"
+gem 'stripe'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
