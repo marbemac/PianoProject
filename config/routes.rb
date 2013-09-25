@@ -1,5 +1,8 @@
 PianoProject::Application.routes.draw do
 
+  resources :donations
+
+  get 'donation-success' => 'donations#success', :as => :donation_success
   get 'mission' => 'pages#mission', :as => :mission
   get 'get-involved' => 'pages#get_involved', :as => :get_involved
   get 'photos' => 'pages#photos', :as => :photos
